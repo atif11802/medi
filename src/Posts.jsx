@@ -47,9 +47,9 @@ useEffect(
                          
                    ))
                   
-               )   :(<div class="loader">
-               <div class="loader-wheel"></div>
-               <div class="loader-text"></div>
+               )   :(<div className="loader">
+               <div className="loader-wheel"></div>
+               <div className="loader-text"></div>
              </div>)
             }
         </div>

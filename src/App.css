@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
 
+
 .app__left{
   display:flex;
   align-items:center;
@@ -32,4 +33,10 @@
 body{
   background-image: linear-gradient(to right, #051421 , #042727);
   
+}
+.appbody__top{
+  
+ 
+  display: flex;
+  justify-content: center;
 }

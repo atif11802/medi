@@ -1,7 +1,7 @@
 .posts{
     display:flex;
     flex-wrap: wrap;
-    margin:25px;
+    margin:15px 5px;
     
         align-items: center;
         background-image: linear-gradient(to right, #051421 , #042727);
@@ -54,7 +54,7 @@
     33% {
       content: 'Loading.';
     }
-    67% {
+    50% {
       content: 'Loading..';
     }
     100% {

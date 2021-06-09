@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "./Post.css";
 import Card from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
@@ -29,15 +29,17 @@ const useStyles = makeStyles((theme) => ({
 	// 	height: 140,
 	// },
   paper: {
+    color:"white",
     marginTop:50,
     position: 'fixed',
     height:400,
     width: 300,
-    backgroundColor: theme.palette.background.paper,
+    // backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
-    
+    backgroundColor: "#042727",
+    fontFamily: 'Hind Madurai',
   },
 }));
 
