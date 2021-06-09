@@ -42,6 +42,7 @@ useEffect(
                        BrandId={post.BrandId}
                        Description={post.Description}
                        Name={post.Name}
+                       accessToken={accessToken}
                        />   
                          
                    ))

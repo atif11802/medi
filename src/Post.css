@@ -1,4 +1,15 @@
-.post{
-    max-width:250px;
+.post__card{
+    min-width:300px;
     margin:30px;
+    cursor: pointer;
+}
+.MuiTypography-root{
+    overflow-wrap: break-word !important;
+}
+.post{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.post:hover{
+    background-color:#e7f0f5;
 }

@@ -8,9 +8,10 @@
 }
 .app__header{
   padding:10px;
-  background-color:bisque;
+  background-color:#F7F7F7;
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px solid #999;
 }
 .app__form{
   display: flex;
@@ -18,4 +19,8 @@
 }
 .MuiFormControl-root{
   margin-bottom: 10px !important;
+}
+
+.app{
+  background-color: rgb(230, 243, 242);
 }

@@ -145,7 +145,7 @@ function App() {
         <Posts
         accessToken={accessToken} />
         
-         : "Sign in First"
+         : ""
       }
     </div>
   );
