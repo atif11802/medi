@@ -125,7 +125,7 @@ function Post({ BrandId, Description, Name,accessToken }) {
       </Modal>
       <div className="post__card" onClick={handleOpen}>
       <Card
-				style={{ Cursor: "pointer",pointerEvents: "none" }}
+				style={{ Cursor: "pointer",pointerEvents: "none" , }}
 				className={classes.root}
 				>
 				<CardActionArea>
@@ -134,12 +134,13 @@ function Post({ BrandId, Description, Name,accessToken }) {
 							gutterBottom
 							variant="h5"
 							component="h1"
-              
+              style={{fontFamily: 'Hind Madurai'}}
 						>
 							{Name}
 						</Typography>
 						<Typography
-							variant="h6"
+            style={{fontFamily: 'Hind Madurai'}}
+							variant="h5"
 							color="textSecondary"
 							component="h3"
 						>
@@ -147,9 +148,10 @@ function Post({ BrandId, Description, Name,accessToken }) {
 							{Description}
 						</Typography>
 						<Typography
-            color="textSecondary"
+            style={{fontFamily: 'Hind Madurai'}}
+            
 							gutterBottom
-							variant="h7"
+							variant="h6"
 							component="h6"
 						>
               

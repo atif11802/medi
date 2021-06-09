@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
 .app__left{
   display:flex;
   align-items:center;
@@ -8,10 +11,15 @@
 }
 .app__header{
   padding:10px;
-  background-color:#F7F7F7;
+  background-image: linear-gradient(to right, #051421 , #042727);
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid #999;
+  
+}
+.app__left>h3{
+  color:white;
+  font-family: 'Indie Flower', cursive;
 }
 .app__form{
   display: flex;
@@ -21,6 +29,7 @@
   margin-bottom: 10px !important;
 }
 
-.app{
-  background-color: rgb(230, 243, 242);
+body{
+  background-image: linear-gradient(to right, #051421 , #042727);
+  
 }

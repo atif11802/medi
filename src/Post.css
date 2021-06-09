@@ -1,15 +1,24 @@
 .post__card{
-    min-width:300px;
+     
     margin:30px;
-    cursor: pointer;
+    cursor: pointer; 
+    
 }
 .MuiTypography-root{
     overflow-wrap: break-word !important;
 }
+.MuiPaper-root{
+    min-width: 300px !important;
+    max-width:300px !important;
+    max-height:160px !important;
+    min-height: 160px !important;
+}
 .post{
     border-radius: 10px;
     transition: 0.5s;
+    TRANSITION:transform 200ms ease-in;
 }
 .post:hover{
-    background-color:#e7f0f5;
+    
+    transform:scale(1.09)
 }

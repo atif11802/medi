@@ -7,13 +7,11 @@ import axios from  "axios";
 import Posts from './Posts';
 
 
-function rand() {
-  return Math.round(Math.random() * 20) - 10;
-}
+
 
 function getModalStyle() {
-  const top = 50 + rand();
-  const left = 50 + rand();
+  const top = 50;
+  const left = 50 ;
 
   return {
     top: `${top}%`,
@@ -113,9 +111,9 @@ function App() {
           {
             user?
             (
-              <Button onClick={handleLogout} variant="contained" color="primary">Logout</Button>
+              <Button onClick={handleLogout} variant="contained" color="secondary">Logout</Button>
             ):
-            <Button onClick={handleOpen} variant="contained" color="primary">sign in</Button>
+            <Button onClick={handleOpen} variant="contained" color="secondary">sign in</Button>
 
           }
       </div>
