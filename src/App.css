@@ -1,0 +1,21 @@
+.app__left{
+  display:flex;
+  align-items:center;
+}
+.app__logo{
+  width:50px;
+  padding:0 10px;
+}
+.app__header{
+  padding:10px;
+  background-color:bisque;
+  display: flex;
+  justify-content: space-around;
+}
+.app__form{
+  display: flex;
+  flex-direction: column;
+}
+.MuiFormControl-root{
+  margin-bottom: 10px !important;
+}
