@@ -51,7 +51,7 @@ function App() {
 
 	const signin = (e) => {
 		e.preventDefault();
-		axios.post("http://163.47.115.230:30000/api/login", {
+		axios.post("//163.47.115.230:30000/api/login", {
 			email: email,
 			password: password,
 		})
