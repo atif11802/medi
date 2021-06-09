@@ -54,7 +54,7 @@ function Post({ BrandId, Description, Name,accessToken }) {
 
 
   
-  const url=`http://163.47.115.230:30000/api/overview/modeldata/${brand}/${name}`;
+  const url=`https://163.47.115.230:30000/api/overview/modeldata/${brand}/${name}`;
   // console.log(brand,name,url)
 
   const handleClose = () => {
