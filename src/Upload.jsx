@@ -36,7 +36,7 @@ function Upload({accessToken} ) {
         if(brandId && name && comment){
             document.getElementById("create-course-form").reset();
            
-            axios.post('//163.47.115.230:30000/api/devicemodel',
+            axios.post('http://163.47.115.230:30000/api/devicemodel',
             {
                 
                 BrandId : brandId,
