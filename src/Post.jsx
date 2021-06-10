@@ -57,7 +57,7 @@ function Post({ BrandId, Description, Name, accessToken }) {
 	};
 
 	const fetchData = async () => {
-		console.log(url);
+		
 		await axios
 			.get(`${url}`, {
 				headers: {
@@ -66,7 +66,7 @@ function Post({ BrandId, Description, Name, accessToken }) {
 			})
 			.then((res) => {
 				setModeldata(res.data);
-				console.log(res.data);
+				
 			})
 			.catch((error) => {
 				console.error(error);

@@ -22,7 +22,7 @@ function Upload({ accessToken }) {
 		)
 			.then((res) => {
 				setTypeId(res.data[0].length);
-				console.log(res.data[0].length);
+				
 			})
 			.catch((error) => {
 				console.error(error);
