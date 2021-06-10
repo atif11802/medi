@@ -92,7 +92,6 @@ function App() {
 	return (
 		<div className="app">
 			<div className="app__header">
-				
 				<div className="app__left">
 					<img
 						className="app__logo"
@@ -157,29 +156,35 @@ function App() {
 					</form>
 				</div>
 			</Modal>
-              <div className="app__body">
-              <div className="appbody__top">
-                {user && user.data && user.data.access_token ? (
-                  <Upload
-                  accessToken={accessToken} 
-                  />
-			) : 
-				""
-			}
-                </div>
+			<div className="app__body">
+				<div className="appbody__top">
+					{user &&
+					user.data &&
+					user.data.access_token ? (
+						<Upload
+							accessToken={
+								accessToken
+							}
+						/>
+					) : (
+						""
+					)}
+				</div>
 
-                <div className="appbody__bottom">
-                {user && user.data && user.data.access_token ? (
-				<Posts accessToken={accessToken} />
-			) : (
-				""
-			)}
-                </div>
-                
-             
-
-              </div>
-			
+				<div className="appbody__bottom">
+					{user &&
+					user.data &&
+					user.data.access_token ? (
+						<Posts
+							accessToken={
+								accessToken
+							}
+						/>
+					) : (
+						""
+					)}
+				</div>
+			</div>
 		</div>
 	);
 }
