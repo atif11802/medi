@@ -65,6 +65,7 @@ function App() {
 			})
 			.catch(function (error) {
 				console.log(error);
+				alert("Wrong Password. Please Provide Your Email and Password")
 			});
 		setOpen(false);
 	};
