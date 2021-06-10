@@ -4,7 +4,7 @@ import "./Model.css";
 function Model({ Brand, Name }) {
 	return (
 		<div className="model">
-			<h1>{Name}</h1>
+			<h4>{Name}</h4>
 		</div>
 	);
 }
