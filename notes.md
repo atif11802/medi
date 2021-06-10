@@ -6,7 +6,8 @@ So i haven't started TypeScript. i did whole project using JavaScript.
 
 You can open the project using this Link 
 but it may not open because avobe link is https and provided api is in http mode.
-To open the project go to site project and allow insecure content.
+To open the project go to site project and in browser setting allow insecure content.
+(in top SITE Searchbar there will be a Lock icon press it then you will find site settings and allow insecure content)
 
 ##  I have made this Website Ui ising Material UI.
 because MUi povides good modern looking UI.And many React websites use the MUI technology and it is easy and free
@@ -18,6 +19,6 @@ Because axios is modern technology so i choosed Axios.
 
 ## for Persist Logged in the website
 
-when the User logged in for the first time then user data get stored in the  Local storage.
+when  User logged in for the first time then user data get stored in the  Local storage.
 
 
