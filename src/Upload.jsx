@@ -30,7 +30,8 @@ function Upload({ accessToken }) {
 	});
 
 	const submit = (e) => {
-		e.preventDefault();
+		
+			e.preventDefault();
 		if (brandId && name && comment) {
 			document.getElementById("create-course-form").reset();
 
@@ -50,7 +51,7 @@ function Upload({ accessToken }) {
 			)
 				.then((res) => {
 					alert(
-						"succesfully uploaded your data refresh to check."
+						"succesfully uploaded your data"
 					);
 				})
 				.catch((error) => {
@@ -59,6 +60,9 @@ function Upload({ accessToken }) {
 		} else {
 			alert("Please, Fill all the Fields");
 		}
+
+		
+		
 	};
 
 	return (

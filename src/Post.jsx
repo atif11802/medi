@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import { makeStyles } from "@material-ui/core/styles";
 import { CardActionArea, CardContent, Typography } from "@material-ui/core";
 import axios from "axios";
-import { Button, Modal } from "@material-ui/core";
+import {  Modal } from "@material-ui/core";
 import Model from "./Model";
 
 function getModalStyle() {
@@ -75,18 +75,19 @@ function Post({ BrandId, Description, Name, accessToken }) {
 	if (open === true) {
 		fetchData();
 	}
+	
 
 	const handleOpen = () => {
 		setOpen(true);
 		setBrand(BrandId);
 		setName(Name);
-		console.log(modeldata);
+		
 	};
 
 	return (
 		<div className="post">
 			<Modal
-				 disableScrollLock="true"
+				//  disableScrollLock="true"
 				open={open}
 				onClose={handleClose}
 				aria-labelledby="simple-modal-title"

@@ -21,7 +21,7 @@ function Posts({ accessToken }) {
 			.catch((error) => {
 				console.error(error);
 			});
-	}, []);
+	}, [posts]);
 
 	return (
 		<div className="posts">
