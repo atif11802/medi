@@ -9,7 +9,7 @@ but it may not open because avobe link is https and provided api is in http mode
 To open the project go to site project and in browser setting allow insecure content.
 (in top SITE Searchbar there will be a Lock icon press it then you will find site settings and allow insecure content)
 
-##  I have made this Website Ui ising Material UI.
+##  I have made this Website Ui using Material UI.
 because MUi povides good modern looking UI.And many React websites use the MUI technology and it is easy and free
 
 ## For overlay dialog i used MUI.

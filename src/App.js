@@ -51,7 +51,8 @@ function App() {
 
 	const signin = (e) => {
 		e.preventDefault();
-		axios.post("http://163.47.115.230:30000/api/login", {
+		if(email && password){
+			axios.post("http://163.47.115.230:30000/api/login", {
 			email: email,
 			password: password,
 		})
@@ -65,9 +66,14 @@ function App() {
 			})
 			.catch(function (error) {
 				console.log(error);
-				alert("Wrong Password. Please Provide Your Email and Password")
+				alert("Wrong Password.Please Provide Correct Email and Password")
 			});
 		setOpen(false);
+		}
+		else{
+			alert("fill all the boxes");
+		}
+		
 	};
 
 	// console.log(accessToken);
