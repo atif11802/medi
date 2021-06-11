@@ -1,5 +1,5 @@
-## First of all i want to say i have been doing React js for 4 months.
-So i haven't started TypeScript. i did whole project using JavaScript.
+## First of all i want to say i have been doing React js for more than 5 months.
+So i haven't started TypeScript. i did this whole project using JavaScript.
 
 
 ## https://atif11802.github.io/medi/
