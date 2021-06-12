@@ -5,7 +5,7 @@ So i haven't started TypeScript. i did this whole project using JavaScript.
 ## https://atif11802.github.io/medi/
 
 You can open the project using this Link 
-but it may not open because avobe link is https and provided api is in http mode.
+but it may not open because abovee link is https and provided api is in http mode.
 To open the project go to site project and in browser setting allow insecure content.
 (in top SITE Searchbar there will be a Lock icon press it then you will find site settings and allow insecure content)
 
