@@ -36,7 +36,7 @@ function Upload({ accessToken }) {
 			document.getElementById("create-course-form").reset();
 
 			axios.post(
-				"http://163.47.115.230:30000/api/devicemodel",
+				process.env.REACT_APP_API_KEY_UPLOAD,
 				{
 					BrandId: brandId,
 					Name: name,

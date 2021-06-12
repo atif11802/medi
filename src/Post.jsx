@@ -49,8 +49,9 @@ function Post({ BrandId, Description, Name, accessToken }) {
 	const [modalStyle] = React.useState(getModalStyle);
 	const [modeldata, setModeldata] = useState([]);
 
-	const url = `http://163.47.115.230:30000/api/overview/modeldata/${brand}/${name}`;
+	const url = `${brand}/${name}`;
 	// console.log(brand,name,url)
+	
 
 	const handleClose = () => {
 		setOpen(false);
@@ -59,7 +60,7 @@ function Post({ BrandId, Description, Name, accessToken }) {
 	const fetchData = async () => {
 		
 		await axios
-			.get(`${url}`, {
+			.get(process.env.REACT_APP_API_KEY_BRAND_NAME+`${url}`, {
 				headers: {
 					authorization: `${accessToken}`,
 				},
