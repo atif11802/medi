@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ## `npm install`
- `After downloading the App run npm install in the project terminal for package manager and dependencies.`
+ After downloading the App run npm install in the project terminal for package manager and dependencies.
 
 
 ### `yarn start`
