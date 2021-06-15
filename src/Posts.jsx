@@ -8,7 +8,7 @@ function Posts({ accessToken }) {
 
 	useEffect(() => {
 		axios.get(
-			process.env.REACT_APP_API_KEY_MODEL_TYPE,
+			"http://163.47.115.230:30000/api/overview/modeltype",
 			{
 				headers: {
 					authorization: `${accessToken}`,

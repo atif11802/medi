@@ -13,7 +13,7 @@ function Upload({ accessToken }) {
 
 	useEffect(() => {
 		axios.get(
-			`http://163.47.115.230:30000/api/devicetype?limit=40&page=2`,
+			`http://163.47.115.230:30000/api/devicetype?limit=40&page=3`,
 			{
 				headers: {
 					authorization: `${accessToken}`,

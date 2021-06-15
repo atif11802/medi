@@ -60,7 +60,7 @@ function Post({ BrandId, Description, Name, accessToken }) {
 	const fetchData = async () => {
 		
 		await axios
-			.get(process.env.REACT_APP_API_KEY_BRAND_NAME+`${url}`, {
+			.get(`http://163.47.115.230:30000/api/overview/modeldata/${url}`, {
 				headers: {
 					authorization: `${accessToken}`,
 				},
